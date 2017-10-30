@@ -1,0 +1,116 @@
+
+body, html {
+  background: black;
+  margin: 0;
+  font-family: 'Lato Light', sans-serif;
+    background: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#page {
+  width: 100%;
+  text-align: center;
+}
+
+img#background {
+    background: url(img_flwr.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.container {
+  display: inline-block;
+  height: 400px;
+  position: relative;
+  top: 197px;
+  width: 613px;
+}
+
+#question {
+  background-color: #097dc6;
+  opacity: .8; 
+  height: 137px;
+  margin: 10px;
+  padding: 2px;
+  position: relative;
+  text-align: center;
+  width: 584px;
+}
+#qlogo {
+  height: 115px;
+  margin-top: 10px;
+  -webkit-transform: rotateX(0deg);
+}
+#question p {
+  color: white;
+  font-family: Lato Light;
+  font-size: 24pt;
+  height: 113px;
+  left: 0px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  overflow-y: hidden;
+  position: absolute;
+  -webkit-transform: rotateX(90deg);
+  top: 0px;
+  width: 100%;
+}
+
+.answer {
+  background-color: #097dc6;
+  opacity: .8; 
+  color: white;
+  display: inline-block;
+  font-family: Lato Light;
+  font-size: 24pt;
+  height: 50px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  padding: 12px 1px 1px 1px;
+  position: relative;
+  text-align: center;
+  width: 287px;
+}
+.answer-text {
+  background-color: black;
+  display: inline-block;
+  font-size: 14pt;
+  height: 100%;
+  left: 0px;
+  line-height: 60px;
+  overflow-x: hidden;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 100%;
+  -webkit-transform: rotateX(90deg);
+}
+.ans-value {
+  background-color: black;
+  display: none;
+  height: 100%;
+  line-height: 60px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 20%;
+  -webkit-transform: rotateX(90deg);
+}
+
+
+.answer:hover, #question:hover {
+  border-color: white;
+}
+
+#x {
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+#x img {
+  display: none;
+  margin-left: 725px;
+  margin-top: 250px;
+  width: 400px;
+}
